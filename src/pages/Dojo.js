@@ -1,0 +1,179 @@
+import DojoBg from "../../src/assets/images/dojo-bg-1.png";
+import DojoBg2 from "../../src/assets/images/dojo-bg-2.png";
+import DojoBg3 from "../../src/assets/images/dojo-bg-3.png";
+import DojoBg4 from "../../src/assets/images/dojo-bg-4.png";
+import Faction from "../../src/assets/images/Faction-1.png";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+
+export default function Dojo() {
+  return (
+    <div>
+      <div>
+        <div
+          style={{ backgroundImage: `url(${DojoBg})` }}
+          className="lg:w-full lg:h-[700px] bg-no-repeat bg-cover"
+        >
+          <Navbar />
+          <div className="lg:container w-10/12 lg:w-12/12 mx-auto lg:pt-[350px] py-[50px] lg:space-y-6">
+            <div>
+              <h1 className="text-white font-apocalypse text-[42px]">
+                The dojo
+              </h1>
+              <p className="text-[#d9d9d9] lg:text-[13px]">
+                The higher purpose
+              </p>
+            </div>
+
+            <p className="text-[#d9d9d9] text-[13px] lg:w-8/12 lg:eading-6 leading-5">
+              The Dojo houses the community behind DoKuJi that gives the brand
+              its meaning. Members will be a part of the Dojo after going
+              through the Pledge. The Dojo aims to make real impact in the world
+              in every positive ways possible. In its entirety it would be a
+              self-sustaining ecosystem that is powered by its members. (It is
+              possible, trust us. Its our ultimate goal.)
+            </p>
+          </div>
+        </div>
+
+        <div
+          style={{ backgroundImage: `url(${DojoBg2})` }}
+          className="lg:w-full lg:h-[700px] bg-no-repeat bg-cover"
+        >
+          <div className="lg:w-6/12 w-10/12 mx-auto lg:pt-[150px] py-[50px] space-y-10">
+            <h2 className="text-black uppercase text-xl">the pledge</h2>
+            <div>
+              <h3 className="text-black text-[13px]">Staking</h3>
+              <p className="text-black text-[13px] leading-6 font-normal">
+                The Avatar holders get a membership in The Dojo by staking their
+                NFT. Staking their NFT will also give them a unique referral
+                code for The Wardrobe. Holders will receive another similar NFT
+                with faction emblem to mark their membership in The Dojo.
+                However, it is stakebound (You can't sell it bruv). It needs to
+                be burned to un-stake the original NFT.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-black text-[13px]">Referral </h3>
+              <p className="text-black text-[13px] leading-6 font-normal">
+                Members of The Dojo will receive a unique referral code after
+                they go through The Pledge. Referral code can be used to get 5%
+                discount in The Wardrobe. Each wallet purchasing from The
+                Wardrobe can only use the referral code once. For every
+                activation of the referral code:
+              </p>
+            </div>
+            <div className="lg:pl-10 pl-5 space-y-2">
+              <p className="text-black text-[13px] font-normal">
+                The owner of the referral code will get 5% from the sale. (Not
+                free money bullsh*t, you get to control how much you make)
+              </p>
+              <p className="text-black text-[13px] font-normal">
+                The owner will get exp points/tokens (This is soulbound,. The
+                wallet takes it to the grave) that helps them level up in the
+                faction.
+              </p>
+              <p className="text-black text-[13px] font-normal">
+                The referral codes will have more implementation in the future.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          style={{ backgroundImage: `url(${DojoBg3})` }}
+          className="lg:w-full lg:h-[600px] bg-no-repeat bg-cover"
+        >
+          <div className="w-11/12 mx-auto lg:pt-[60px] py-[50px]">
+            <h2 className="text-center text-white text-[23px]">
+              DOJO FACTIONSS
+            </h2>
+            <div className="lg:grid lg:grid-cols-3 lg:pt-[70px] pt-[50px] gap-4 space-y-10 lg:space-y-0">
+              <div className="space-y-10">
+                <div className="space-y-2">
+                  <p className="text-white text-end text-[13px]">Economy</p>
+                  <p className="text-[#d9d9d9] text-end text-[11px] leading-5 pl-[100px]">
+                    Marketplace Media, art & entertainment Sports & Recreation
+                    *% of all income goes to the Dojo Wallet
+                  </p>
+                </div>
+                <div className="space-y-2">
+                  <p className="text-white text-end text-[13px]">Economy</p>
+                  <p className="text-[#d9d9d9] text-end text-[11px] leading-5 pl-[100px]">
+                    Marketplace Media, art & entertainment Sports & Recreation
+                    *% of all income goes to the Dojo Wallet
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex flex-col justify-center items-center space-y-4">
+                <img src={Faction} alt="" className="h-[220px]" />
+              </div>
+
+              <div className="space-y-10">
+                <div className="space-y-2">
+                  <p className="text-white text-[13px]">Economy</p>
+                  <p className="text-[#d9d9d9] text-[11px] leading-5 pr-[100px]">
+                    Marketplace Media, art & entertainment Sports & Recreation
+                    *% of all income goes to the Dojo Wallet
+                  </p>
+                </div>
+                <div className="space-y-2">
+                  <p className="text-white text-[13px]">Economy</p>
+                  <p className="text-[#d9d9d9] text-[11px] leading-5 pr-[100px]">
+                    Marketplace Media, art & entertainment Sports & Recreation
+                    *% of all income goes to the Dojo Wallet
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          style={{ backgroundImage: `url(${DojoBg4})` }}
+          className="lg:w-full lg:h-[600px] bg-no-repeat bg-cover"
+        >
+          <div className="lg:w-8/12 w-10/12 mx-auto space-y-10 py-10 lg:py-0">
+            <div>
+              <p className="text-white text-[13px] leading-6">
+                The Dojo is divided into four factions; Hearts, Spades, Clubs
+                and Diamonds. Each to its own purpose. Various projects,
+                programs that meets any of the objectives will be voted upon by
+                the members of the faction to execute. Each faction will have
+                their share in the Dojo Wallet which will be used to fund these
+                projects. Further donation drives/events can be done by the
+                faction members to raise more funds. The Diamond Faction creates
+                an economy for the The Dojo and its members.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-white text-[13px]">Referral </h3>
+              <p className="text-white text-[13px] leading-6">
+                Each faction has its own decentralized governance. With its own
+                internal rank system (2,3…J,Q,K,A) members can level up through
+                participation in projects, Wardrobe referrals, donation
+                referrals and other contributions. Each rank has its own:
+              </p>
+            </div>
+            <div className="lg:pl-10 pl-5 space-y-2">
+              <p className="text-white text-[13px]">
+                Weightage for their vote in the faction
+              </p>
+              <p className="text-white text-[13px]">
+                Share in the periodic bonus/incentives (The higher your rank,
+                the more you get)
+              </p>
+              <p className="text-white text-[13px]">
+                Career opportunity within The Dojo
+              </p>
+              <p className="text-white text-[13px]">Privileges and perks</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <Footer />
+    </div>
+  );
+}
