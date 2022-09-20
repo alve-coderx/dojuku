@@ -7,6 +7,7 @@ import Kami1 from "../../src/assets/images/kami-1.png";
 import DojoBg3 from "../../src/assets/images/dojo-bg-3.png";
 import Mikata1 from "../../src/assets/images/mikata-1.png";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function Wardrobe() {
   return (
@@ -148,6 +149,7 @@ export default function Wardrobe() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

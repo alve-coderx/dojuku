@@ -81,7 +81,7 @@ export default function Dojo() {
         </div>
 
         <div
-          style={{ backgroundImage: `url(${DojoBg3})` }}
+          style={{ backgroundImage: `url(${DojoBg3})`}}
           className="lg:w-full lg:h-[600px] bg-no-repeat bg-cover"
         >
           <div className="w-11/12 mx-auto lg:pt-[60px] py-[50px]">
@@ -131,7 +131,7 @@ export default function Dojo() {
         </div>
 
         <div
-          style={{ backgroundImage: `url(${DojoBg4})` }}
+          style={{ backgroundImage: `url(${DojoBg4})`,backgroundPosition:'bottom'  }}
           className="lg:w-full lg:h-[600px] bg-no-repeat bg-cover"
         >
           <div className="lg:w-8/12 w-10/12 mx-auto space-y-10 py-10 lg:py-0">
@@ -157,17 +157,17 @@ export default function Dojo() {
               </p>
             </div>
             <div className="lg:pl-10 pl-5 space-y-2">
-              <p className="text-white text-[13px]">
+              <li className="text-white text-[13px]">
                 Weightage for their vote in the faction
-              </p>
-              <p className="text-white text-[13px]">
+              </li>
+              <li className="text-white text-[13px]">
                 Share in the periodic bonus/incentives (The higher your rank,
                 the more you get)
-              </p>
-              <p className="text-white text-[13px]">
+              </li>
+              <li className="text-white text-[13px]">
                 Career opportunity within The Dojo
-              </p>
-              <p className="text-white text-[13px]">Privileges and perks</p>
+              </li>
+              <li className="text-white text-[13px]">Privileges and perks</li>
             </div>
           </div>
         </div>

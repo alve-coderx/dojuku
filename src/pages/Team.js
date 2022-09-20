@@ -15,13 +15,13 @@ export default function Team() {
         className="lg:bg-no-repeat bg-cover object-cover"
       >
         <Navbar />
-        <h1 className="text-white text-center lg:pl-[150px] pl-[50px] lg:pt-[50px] uppercase font-apocalypse text-[42px]">
+        <h1 className="text-white text-center lg:pt-[50px] uppercase font-apocalypse text-[42px]">
           the team
         </h1>
-        <div className="lg:grid lg:grid-cols-5 sm:grid sm:grid-cols-2  mx-auto lg:pt-[60px] pt-[30px] gap-6 space-y-10 lg:space-y-0 pb-10 lg:pb-10">
-          <div className="space-y-4 flex lg:inline">
+        <div className="lg:grid lg:grid-cols-12 sm:grid sm:grid-cols-1  mx-auto lg:pt-[60px] pt-[30px] gap-6 space-y-10 lg:space-y-0 pb-10 lg:pb-10">
+          <div className="space-y-4 flex lg:inline lg:col-span-3 sm:col-span-2">
             <div>
-              <h2 className="text-white lg:text-center lg:pr-[86px] pl-[50px]">
+              <h2 className="text-white text-center ">
                 KISHEN
               </h2>
               <img src={KISHEN} alt="" className="h-[200px] w-[390px] lg:h-full lg:w-full" />
@@ -38,9 +38,9 @@ export default function Team() {
             </div>
           </div>
 
-          <div className="space-y-4 flex lg:inline">
+          <div className="space-y-4 flex lg:inline lg:col-span-3 sm:col-span-2">
             <div>
-              <h2 className="text-white lg:text-center lg:pr-[86px] pl-[50px]">
+              <h2 className="text-white text-center ">
               FLOATLN
               </h2>
               <img src={FLOATLN} alt="" className="h-[200px] w-[390px] lg:h-full lg:w-full" />
@@ -56,9 +56,9 @@ export default function Team() {
             </div>
           </div>
 
-          <div className="space-y-4 flex lg:inline">
+          <div className="space-y-4 flex lg:inline lg:col-span-3 sm:col-span-2">
             <div>
-              <h2 className="text-white lg:text-center lg:pr-[86px] pl-[50px]">
+              <h2 className="text-white text-center ">
               IK
               </h2>
               <img src={IK1} alt="" className="h-[200px] w-[390px] lg:h-full lg:w-full"/>
@@ -72,9 +72,9 @@ export default function Team() {
             </div>
           </div>
 
-          <div className="space-y-4 flex lg:inline">
+          <div className="space-y-4 flex lg:inline lg:col-span-3 sm:col-span-2">
             <div>
-              <h2 className="text-white lg:text-center lg:pr-[86px] pl-[50px]">
+              <h2 className="text-white text-center ">
               XIANG
               </h2>
               <img src={XIANG} alt="" className="h-[200px] w-[390px] lg:h-full lg:w-full"/>
@@ -88,9 +88,9 @@ export default function Team() {
             </div>
           </div>
 
-          <div className="space-y-4 flex lg:inline">
+          <div className="space-y-4 flex lg:inline lg:col-span-3 sm:col-span-2">
             <div>
-              <h2 className="text-white lg:text-center lg:pr-[86px] pl-[50px]">
+              <h2 className="text-white text-center ">
               VISWA
               </h2>
               <img src={VISWA} alt="" className="h-[200px] w-[390px] lg:h-full lg:w-full"/>

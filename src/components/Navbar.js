@@ -62,13 +62,14 @@ const Navbar = () => {
                           key={item.name}
                           href={item.href}
                           className={
+                            item.current && window.location.pathname === '/nft' ? 'font-apocalypse blurEff hover:text-red-600' :
                             window.location.pathname === "/nft"
                               ? "uppercase bg-white text-black hover:text-red-600 "
                               : classNames(
                                   item.current
                                     ? "text-gray-300 hover:text-white font-apocalypse uppercase "
                                     : "text-gray-300  hover:text-white",
-                                  "px-3 py-2 rounded-md text-sm font-medium uppercase text-base",
+                                  " py-2 rounded-md text-sm font-medium uppercase text-base",
                                   item.name === 'dojo' && 'text-lg'
 
                                 )

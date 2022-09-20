@@ -10,40 +10,44 @@ export default function NFT() {
     <div>
       <div>
         <div
-          style={{ backgroundImage: `url(${NftBg})` }}
-          className="lg:w-full lg:h-[700px] bg-no-repeat bg-cover"
+         
         >
           <Navbar />
-          <div className="lg:w-11/12 w-10/12 mx-auto pb-5 lg:pb-0">
-            <div className="lg:grid lg:grid-cols-6 flex flex-col-reverse lg:flex-none">
-              <div className="col-start-1 col-end-3">
-                <img src={NftRemovebg} alt=""  className="h-[600px] w-[350px]" />
-              </div>
-
-              <div className="lg:pt-[50px] col-end-6 col-span-2 lg:space-y-20 space-y-10">
-                <div>
-                  <h1 className="font-apocalypse text-[62px]">
-                    Dokuji initiator NFT
-                  </h1>
-                  <p className="text-[18px] text-slate-600	">DoKuJi's Web3-Commerce Platform</p>
+          <div
+            style={{ backgroundImage: `url(${NftBg})`,backgroundPosition : 'bottom'}}
+            className="lg:w-full lg:h-[700px] bg-no-repeat bg-cover"
+          >
+            <div className="lg:w-11/12 w-10/12 mx-auto pb-5 lg:pb-0">
+              <div className="lg:grid lg:grid-cols-6 flex flex-col-reverse lg:flex-none">
+                <div className="col-start-1 col-end-3">
+                  <img src={NftRemovebg} alt=""  className="h-[600px] w-[350px]" />
                 </div>
-                <div className="space-y-4">
-                  <p className="text-[18px] text-slate-600	">
-                    A symbol of Allegiance, An Identity, A Fellowship
-                  </p>
-                  <p className="text-[18px] text-slate-600	">
-                    A Dope avatar donning the fashion of DoKuJi
-                  </p>
-                  <p className="text-[18px] text-slate-600	">
-                    Not a Collectible, but a GATE PASS to GREATNESS.
-                  </p>
-                  <p className="text-[18px] text-slate-600	">
-                    Don't just keep it, PLEDGE it and become part of the
-                    Society.
-                  </p>
-                  <p className="text-[18px] text-slate-600	">
-                    Its your avatar, give it respect.{" "}
-                  </p>
+
+                <div className="lg:pt-[50px] col-end-6 col-span-2 lg:space-y-20 space-y-10">
+                  <div>
+                    <h1 className="font-apocalypse text-[62px]">
+                      Dokuji initiator NFT
+                    </h1>
+                    <p className="text-[18px] text-slate-600	">DoKuJi's Web3-Commerce Platform</p>
+                  </div>
+                  <div className="space-y-4">
+                    <p className="text-[18px] text-slate-600	">
+                      A symbol of Allegiance, An Identity, A Fellowship
+                    </p>
+                    <p className="text-[18px] text-slate-600	">
+                      A Dope avatar donning the fashion of DoKuJi
+                    </p>
+                    <p className="text-[18px] text-slate-600	">
+                      Not a Collectible, but a GATE PASS to GREATNESS.
+                    </p>
+                    <p className="text-[18px] text-slate-600	">
+                      Don't just keep it, PLEDGE it and become part of the
+                      Society.
+                    </p>
+                    <p className="text-[18px] text-slate-600	">
+                      Its your avatar, give it respect.{" "}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -84,7 +88,7 @@ export default function NFT() {
                       Dojo wallet.
                     </p>
                   </div>
-                  <p className="text-end font-bold text-xl">
+                  <p className="text-end font-bold text-xl uppercase">
                     "It is easier to find men who will volunteer to die, than to
                     find those who are willing to endure the pain with
                     patience." - Bigg Ceasar
